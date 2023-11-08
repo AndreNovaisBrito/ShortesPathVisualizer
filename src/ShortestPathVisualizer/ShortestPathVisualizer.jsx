@@ -3,12 +3,10 @@ import "./ShortestPathVisualizer.css";
 import Node from "./Node/Node";
 
 const rows = 43;
+const a = 1;
 const columns = 70;
 
 const renderNode = (row, col) => {
-  console.log("row=", row);
-  console.log("col=", col);
-
   if (row === 15 && col === 15) {
     return <Node key={`${row}-${col}`} style={{ backgroundColor: "red" }} />;
   }
