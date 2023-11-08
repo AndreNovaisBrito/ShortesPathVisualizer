@@ -1,0 +1,7 @@
+.node {
+  height: 2vh;
+  width: 2vh;
+  outline: 1px solid gray;
+  border-radius: 3px;
+  /* background-color: red; */
+}

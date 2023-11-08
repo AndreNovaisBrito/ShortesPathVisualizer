@@ -1,0 +1,9 @@
+.grid-container {
+  display: -ms-inline-grid;
+  padding: 1px;
+  position: absolute;
+}
+
+.row {
+  display: flex;
+}
